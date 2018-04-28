@@ -13,8 +13,8 @@
 
 text_color_theme: default #eg: default | dark | forest | ocean | chocolate | orange
 ## Base settings ##
-url:  https://topaz1618.github.io  #the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl: /
+# url:  https://topaz1618.github.io  #the base hostname & protocol for your site e.g. https://www.someone.com
+# baseurl: /
 title: Topaz's blog
 description: > #this means to ignore newlines until "nav_lists:"
   Topaz's Blog
@@ -34,8 +34,8 @@ paths:
   rss:  /feed.xml
 
 ## GitHub repository (if the site is hosted by GitHub) ##
-# repository:  #e.g. someone/someone.github.io
-# repository_tree:  #e.g. master
+repository:  https://topaz1618.github.io#e.g. someone/someone.github.io
+repository_tree:  master #e.g. master
 
 ## Language & timezone ##
 lang: en #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
